@@ -18,34 +18,40 @@ We used Q-learning for our agent. Q-learning is a reinforcement learning algorit
 
 The agent have a determinate actions to use :
 For 1 passenger - 6 actions :
- 0 - go to south
- 1 - go to north
- 2 - go to east
- 3 - go to west
- 4 - pickup passenger
- 5 - dropoff passenger
 
-For 2 passengers - 8 actions :  
- 0 - go to south
- 1 - go to north
- 2 - go to east
- 3 - go to west
- 4 - pickup passenger 1
- 5 - dropoff passenger 1
- 6 - pickup passenger 2
- 7 - dropoff passenger 2
+0. go to south
+1. go to north
+2. go to east
+3. go to west
+4. pickup passenger
+5. dropoff passenger
+
+For 2 passengers - 8 actions :
+
+0. go to south
+1. go to north
+2. go to east
+3. go to west
+4. pickup passenger 1
+5. dropoff passenger 1
+6. pickup passenger 2
+7. dropoff passenger 2
 
 The agent have an observable state :
 For 1 passenger - max is 4,4,4,3 (encoded by 500)
- 4 - Row
- 4 - Column
- 4 - the place where to pickup the passenger (4 means it's a passenger in the taxi)
- 3 - the place where to dropoff the passenger
+
+4 - Row  
+4 - Column  
+4 - the place where to pickup the passenger (4 means it's a passenger in the taxi)  
+3 - the place where to dropoff the passenger  
 
 For 1 passenger - max is 4,4,4,3,4,3 (encoded by 10000)
- 4 - Row
- 4 - Column
- 4 - the place where to pickup the passenger 1 (4 means in the taxi)
- 3 - the place where to dropoff the passenger 1
- 4 - the place where to pickup the passenger 2 (4 means in the taxi)
- 3 - the place where to dropoff the passenger 2
+
+ 4 - Row  
+ 4 - Column  
+ 4 - the place where to pickup the passenger 1 (4 means in the taxi)  
+ 3 - the place where to dropoff the passenger 1  
+ 4 - the place where to pickup the passenger 2 (4 means in the taxi)  
+ 3 - the place where to dropoff the passenger 2  
+ 
+ 
