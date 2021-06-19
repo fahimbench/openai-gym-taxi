@@ -12,11 +12,12 @@ Require with jupyter notebook scripts:
 
 Gym is a toolkit for developing and comparing reinforcement learning algorithms. It supports teaching agents everything from walking to playing games like Pong or Pinball. Here we use it to learn how it works with the Taxi game.
 
-We need to teach to our agent(Taxi) to pickup a person on a point and drop it off on another point. Ant with more difficult, 2 persons on 2 different points.
+We need to teach to our agent(Taxi) to pickup a person on a point and drop it off on another point. And with more difficult, 2 persons on 2 different points.
 
 We used Q-learning for our agent. Q-learning is a reinforcement learning algorithm that seeks to find the best possible next action given its current state, in order to maximise the reward it receives.
 
 The agent have a determinate actions to use :
+
 For 1 passenger - 6 actions :
 
 0. go to south
