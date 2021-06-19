@@ -38,6 +38,7 @@ For 2 passengers - 8 actions :
 7. dropoff passenger 2
 
 The agent have an observable state :
+
 For 1 passenger - max is 4,4,4,3 (encoded by 500)
 
 4 - Row  
@@ -45,7 +46,7 @@ For 1 passenger - max is 4,4,4,3 (encoded by 500)
 4 - the place where to pickup the passenger (4 means it's a passenger in the taxi)  
 3 - the place where to dropoff the passenger  
 
-For 1 passenger - max is 4,4,4,3,4,3 (encoded by 10000)
+For 2 passengers - max is 4,4,4,3,4,3 (encoded by 10000)
 
  4 - Row  
  4 - Column  
